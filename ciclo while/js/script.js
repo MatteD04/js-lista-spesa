@@ -8,11 +8,12 @@ let listItem = document.getElementById("list");
 
 let i = 0
 //finchè la i è minore della lunghezza dell'array
-while(i < list.length - 1) {
+while(i < list.length) {
 
     //scorri gli elementi della lista
-    i++;
 
     //stampo in pagina oogni elemento
     listItem.innerHTML += list[i] + "<br>";
+
+    i++;
 }
